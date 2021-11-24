@@ -1,4 +1,3 @@
-from typing import MutableMapping
 from zooAnimales.animal import Animal
 
 class Mamifero(Animal):
