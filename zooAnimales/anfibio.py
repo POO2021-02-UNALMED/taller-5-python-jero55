@@ -18,7 +18,7 @@ class Anfibio(Animal):
     def setColorPiel(self,colorPiel):
         self._colorPiel = colorPiel
 
-    def getVenenoso(self):
+    def isVenenoso(self):
         return self._venenoso
 
     def setVenenoso(self,venenoso):
@@ -36,7 +36,7 @@ class Anfibio(Animal):
         return Anfibio(nombre,edad,"selva",genero,"rojo",True)
 
     @classmethod
-    def crearSerpiente(cls,nombre,edad,genero):
+    def crearSalamandra(cls,nombre,edad,genero):
         return Anfibio(nombre,edad,"selva",genero,"negro y amarillo",False)
 
     @classmethod
